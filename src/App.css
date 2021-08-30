@@ -1,0 +1,83 @@
+html,body{
+  margin: 0%;
+  padding: 0%;
+}
+.profile-pic{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  height: 30vh;
+  border-radius: 10%;
+}
+
+.hero{
+  width: 100%;
+  height: 10vh;
+  background-color: rgb(37, 36, 36);
+}
+.git-logo{
+  position: absolute;
+  left: 45%;
+  top: 10%;
+  height: 20%;
+}
+
+  .heading{
+    text-align: center;
+    color: aliceblue;
+  }
+
+  .usertable{
+    position: absolute;
+    top: 60%;
+    align-items: baseline;
+    width: 100%;
+  }
+
+  .flexeffect{
+    display: flex;
+    text-align: right;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  #inputuser{
+    
+    position: absolute;
+    top: 7%;
+    left: 5%;
+    display: block;
+  }
+  #Submit{
+    
+    position: absolute;
+    top: 7%;
+    left: 19%;
+    display: block;
+  }
+
+  .reposrender{
+    top: 85%;
+    width: 100%;
+    position: absolute;
+  }
+
+  .text-center{
+    left: 50%;
+    text-align: center;
+  }
+
+  .repos-link{
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .login{
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%,0);
+  }
